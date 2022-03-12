@@ -3,9 +3,10 @@ require("dotenv").config({
 	path: `.env`,
 });
 module.exports = {
+  pathPrefix: '/portfolio',
   siteMetadata: {
-      title: `new`,
-    siteUrl: `https://www.yourdomain.tld`
+      title: `Hardik Naik`,
+    siteUrl: `https://mehardiknaik.github.io`
   },
   plugins: ["gatsby-plugin-styled-components", "gatsby-plugin-image", "gatsby-plugin-react-helmet", {
     resolve: 'gatsby-plugin-manifest',

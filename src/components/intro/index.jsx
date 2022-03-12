@@ -12,7 +12,7 @@ const Intro = () => {
       <IntroWrapper as={Container}>
         <Details theme={theme}>
           <h1>Hi There!</h1>
-          <h4>I’m John and I’m a JAMStack engineer!</h4>
+          <h4>I’m Hardik and I’m a Software Developer</h4>
         </Details>
         <Thumbnail>
           <img src={dev} alt="I’m John and I’m a JAMStack engineer!" />
