@@ -19,5 +19,17 @@ module.exports = {
       display: "minimal-ui",
       icon: "./static/favicon/favicon-512.png",
     }
-  }]
+  },
+  {
+    resolve: "gatsby-source-graphql",
+    options: {
+      typeName: "GitHub",
+      fieldName: "github",
+      url: "https://api.github.com/graphql",
+      headers: {
+        Authorization: `bearer ${process.env.PORTFOLIO_GITHUB_TOKEN}`,
+      },
+      fetchOptions: {},
+    },
+  },]
 };
