@@ -6,7 +6,7 @@ module.exports = {
   pathPrefix: "/portfolio",
   siteMetadata: {
     title: `Hardik Naik`,
-    siteUrl: `https://mehardiknaik.github.io`,
+    siteUrl: config.url,
   },
   plugins: [
     "gatsby-plugin-styled-components",
@@ -16,7 +16,7 @@ module.exports = {
       resolve: "gatsby-plugin-manifest",
       options: {
         name: config.defaultTitle,
-        short_name: "starter",
+        short_name: "Hardik Naik",
         start_url: "/",
         background_color: config.backgroundColor,
         theme_color: config.themeColor,

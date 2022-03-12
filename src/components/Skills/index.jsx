@@ -14,7 +14,7 @@ const Skills = () => {
         </Thumbnail>
         <Details theme={theme}>
           <h1>More about me</h1>
-          <p>Hi, i am Hardik i like to develope web applications by using REACT ang ANGULAR.</p>
+          <p>Hi, i am Hardik i like to develope web applications by using REACT and ANGULAR.</p>
         </Details>
       </SkillsWrapper>
     </Wrapper>

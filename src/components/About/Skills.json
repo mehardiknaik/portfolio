@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "name": "React",
+    "icon": "/skillIcons/react.svg"
+  },
+  {
+    "id": 1,
+    "name": "Angular",
+    "icon": "/skillIcons/angular.svg"
+  },
+  {
+    "id": 3,
+    "name": "NextJs",
+    "icon": "/skillIcons/nextjs.svg"
+  },
+  {
+    "id": 4,
+    "name": "Gatsby",
+    "icon": "/skillIcons/Gatsby.svg"
+  }
+]

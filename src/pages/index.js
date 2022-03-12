@@ -1,4 +1,5 @@
 import * as React from "react";
+import About from "../components/About";
 import Seo from "../components/common/SEO";
 import Footer from "../components/Footer";
 import Intro from "../components/intro";
@@ -14,6 +15,7 @@ const IndexPage = () => {
       <Layout>
         <Seo />
         <Intro />
+        <About/>
         <Projects />
         <Skills />
         <Footer />
