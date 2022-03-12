@@ -3,7 +3,7 @@ import useMedia from './useMedia';
 
 
 const useDarkMode = () => {
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState('light');
 
   const toggleTheme = () => {
     if (theme === 'light') {
