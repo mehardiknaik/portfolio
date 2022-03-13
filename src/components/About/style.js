@@ -28,7 +28,9 @@ export const Thumbnail = styled.div`
   }
 `;
 export const DetailsWrapper = styled.div`
+@media (min-width: 960px) {
 padding-left: 2rem;
+}
 `
 export const Details = styled.div`
   flex: 1;

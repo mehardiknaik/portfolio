@@ -1,7 +1,7 @@
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import styled from "styled-components";
 export const Wrapper = styled.div`
-  background: ${({ theme }) => (theme === "light" ? "#ffffff9e" : "#36363673")};
+  background: ${({ theme }) => (theme === "light" ? "#e1e1e19e" : "#36363673")};
   height: fit-content;
   
   position: fixed;

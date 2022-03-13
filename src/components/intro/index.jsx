@@ -15,7 +15,7 @@ const Intro = () => {
           <h4>I’m Hardik and I’m a Software Developer</h4>
         </Details>
         <Thumbnail>
-          <img src={dev} alt="I’m John and I’m a JAMStack engineer!" />
+          <img src={dev} alt="I’m Hardik and I’m a software developer" />
         </Thumbnail>
       </IntroWrapper>
     </Wrapper>
