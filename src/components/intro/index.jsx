@@ -8,7 +8,7 @@ const Intro = () => {
   const { theme } = useContext(ThemeContext);
   console.log(theme)
   return (
-    <Wrapper>
+    <Wrapper id="top">
       <IntroWrapper as={Container}>
         <Details theme={theme}>
           <h1>Hi There!</h1>
