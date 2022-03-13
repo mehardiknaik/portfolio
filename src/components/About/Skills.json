@@ -18,5 +18,35 @@
     "id": 4,
     "name": "Gatsby",
     "icon": "/skillIcons/gatsby.svg"
+  },
+  {
+    "id": 5,
+    "name": "SpringBoot",
+    "icon": "/skillIcons/springboot.svg"
+  },
+  {
+    "id": 6,
+    "name": "Typescript",
+    "icon": "/skillIcons/typescript.svg"
+  },
+  {
+    "id": 7,
+    "name": "Javascript",
+    "icon": "/skillIcons/javascript.svg"
+  },
+  {
+    "id": 8,
+    "name": "FramerMotion",
+    "icon": "/skillIcons/framermotion.svg"
+  },
+  {
+    "id": 9,
+    "name": "HighCharts",
+    "icon": "/skillIcons/highchart.svg"
+  },
+  {
+    "id": 10,
+    "name": "ChartJs",
+    "icon": "/skillIcons/chartjs.svg"
   }
 ]

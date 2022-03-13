@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Container } from "../common/Container/Container";
-import { Details, DetailWrapper, SkillsWrapper, Thumbnail, Wrapper } from "./style";
+import { Details, DetailsWrapper, DetailWrapper, SkillsWrapper, Thumbnail, Wrapper } from "./style";
 import about from "../../assets/illustrations/about.png";
 import { ThemeContext } from "../../providers/ThemeProvider";
 import Skills from "./Skills.json";
@@ -14,9 +14,11 @@ const About = () => {
         <Thumbnail>
           <img
             src={about}
-            alt="I’m John and I’m a Backend & Devops engineer!"
+            alt="I’m Hardik and I’m a software developer"
           />
         </Thumbnail>
+        <DetailsWrapper>
+        <h2>Skills</h2>
         <Details theme={theme}>
           {Skills.map(({ id, name, icon }) => (
             <DetailWrapper key={id}>
@@ -25,6 +27,7 @@ const About = () => {
             </DetailWrapper>
           ))}
         </Details>
+        </DetailsWrapper>
       </SkillsWrapper>
     </Wrapper>
   );
