@@ -26,11 +26,9 @@ const Header = () => {
           <Hamburger sidebar={sidebar} toggle={toggle} />
         </MenuWrapper>
       </HeaderWrapper>
-      {sidebar && (
-        <MobileMenuWrapper onClick={() => toggle(false)}>
+        <MobileMenuWrapper isOpen={sidebar} onClick={() => toggle(false)}>
           <MenuItems isMobile />
         </MobileMenuWrapper>
-      )}
     </Wrapper>
   );
 };

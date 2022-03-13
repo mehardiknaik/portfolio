@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   background: ${({ theme }) => (theme === "light" ? "#ffffff9e" : "#36363673")};
   height: fit-content;
+  
   position: fixed;
   border-radius: 1rem;
   top: 1rem;
@@ -29,7 +30,12 @@ export const HeaderWrapper = styled.div`
   align-items: center;
 `;
 export const MobileMenuWrapper = styled.div`
-  margin-top: 1rem;
+transition: max-height .6s ease-out;
+overflow: hidden;
+max-height: ${({ isOpen }) => (isOpen ? "500px" : "0px")};
+  @media (min-width: 960px) {
+    max-height: 0;
+  }
 `;
 export const Title = styled(AnchorLink)`
   font-size: 1.5rem;
