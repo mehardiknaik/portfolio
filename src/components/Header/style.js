@@ -1,9 +1,10 @@
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import styled from "styled-components";
 export const Wrapper = styled.div`
-  background: ${({ theme }) => (theme === "light" ? "#e1e1e19e" : "#36363673")};
+  background: ${({ theme }) => (theme === "light" ? "#ffffff9e" : "#3636369e")};
+  box-shadow: ${({ theme }) => (theme === "light" ?"#00000033 0px 1px 2px 0px, #00000030 0px 2px 5px 0px" : "#6a6a6a33 0px 1px 2px 0px, #6d6d6d30 0px 2px 5px 0px")};
   height: fit-content;
-  
+
   position: fixed;
   border-radius: 1rem;
   top: 1rem;
@@ -30,9 +31,9 @@ export const HeaderWrapper = styled.div`
   align-items: center;
 `;
 export const MobileMenuWrapper = styled.div`
-transition: max-height .6s ease-out;
-overflow: hidden;
-max-height: ${({ isOpen }) => (isOpen ? "500px" : "0px")};
+  transition: max-height 0.6s ease-out;
+  overflow: hidden;
+  max-height: ${({ isOpen }) => (isOpen ? "500px" : "0px")};
   @media (min-width: 960px) {
     max-height: 0;
   }
