@@ -1,9 +1,15 @@
 import styled from "styled-components";
+import aboutbg from '../../assets/illustrations/aboutbg.png';
 
 export const Wrapper = styled.div`
+background-image: url(${aboutbg});
   background-size: contain;
-  background-position: left top;
+  background-position: center;
   background-repeat: no-repeat;
+  @media (max-width: 960px) {
+    background-size: cover;
+    background-position: top left;
+  }
 `;
 export const SkillsWrapper = styled.div`
   padding: 4rem 0;
